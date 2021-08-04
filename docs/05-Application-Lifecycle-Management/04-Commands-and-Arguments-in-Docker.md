@@ -1,5 +1,5 @@
 # Commands and Arguments in Docker
-  - Take me to [Video Tutorial](https://kodekloud.com/courses/539883/lectures/9808205)
+  - Take me to [Video Tutorial](https://kodekloud.com/topic/commands-and-arguments-in-docker/)
   
 In this section, we will take a look at commands and arguments in docker
 
@@ -29,7 +29,7 @@ In this section, we will take a look at commands and arguments in docker
   ```
   $ docker run ubuntu sleep 5
   ```
-- This way when the container starts it runs the sleep program, waits for 5 seconds and then exists. How do you make that change permenent?
+- This way when the container starts it runs the sleep program, waits for 5 seconds and then exists. How do you make that change permanent?
   
   ![sleep](../../images/sleep.PNG)
   

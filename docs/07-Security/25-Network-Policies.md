@@ -1,5 +1,5 @@
 # Network Policies
-  - Take me to [Video Tutorials](https://kodekloud.com/courses/539883/lectures/9948740)
+  - Take me to [Video Tutorials](https://kodekloud.com/topic/network-policies-3/)
   
 #### Trafic flowing through a webserver serving frontend to users an app server serving backend API and a database server
 
@@ -57,14 +57,16 @@
   $ kubectl create -f policy-definition.yaml
   ```
   
-  ![npol3](../../images/npol3.PNG)
+ ![npol3](../../images/npol3.PNG)
  
-  ![npol4](../../images/npol4.PNG)
+ ![npol4](../../images/npol4.PNG)
   
 ## Note
  
  ![note1](../../images/note1.PNG)
  
+#### Additional lecture on [Developing Networking Policies](https://kodekloud.com/topic/developing-network-policies/)
+
 #### K8s Reference Docs
 - https://kubernetes.io/docs/concepts/services-networking/network-policies/
 - https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/

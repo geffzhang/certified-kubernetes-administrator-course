@@ -1,5 +1,5 @@
 # Kube API Server
-  - Take me to [Video Tutorial](https://kodekloud.com/courses/539883/lectures/9808163)
+  - Take me to [Video Tutorial](https://kodekloud.com/topic/kube-api-server/)
   
 In this section, we will talk about kube-apiserver in kubernetes
 
@@ -44,7 +44,7 @@ In this section, we will talk about kube-apiserver in kubernetes
    
 - You can also see the running process and affective options by listing the process on master node and searching for kube-apiserver.
   ```
-  $ ps -aux |grep kube-apiserver
+  $ ps -aux | grep kube-apiserver
   ```
   ![kube-apiserver4](../../images/kube-apiserver4.PNG)
 

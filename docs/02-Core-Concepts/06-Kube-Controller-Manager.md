@@ -1,11 +1,11 @@
 # Kube Controller Manager
 
-  - Take me to [Video Tutorial](https://kodekloud.com/courses/539883/lectures/9808161)
+  - Take me to [Video Tutorial](https://kodekloud.com/topic/kube-controller-manager/)
   
 In this section, we will take a look at kube-controller-manager.
 
 #### Kube Controller Manager manages various controllers in kubernetes.
-- In kubernetes terms, a controller is a process that continously monitors the state of the components within the system and works towards bringing the whole system to the desired functioning state.
+- In kubernetes terms, a controller is a process that continuously monitors the state of the components within the system and works towards bringing the whole system to the desired functioning state.
 
 ## Node Controller
    - Responsible for monitoring the state of the Nodes and taking necessary actions to keep the application running. 
@@ -58,11 +58,11 @@ In this section, we will take a look at kube-controller-manager.
   
 - You can also see the running process and affective options by listing the process on master node and searching for kube-controller-manager.
   ```
-  $ ps -aux |grep kube-controller-manager
+  $ ps -aux | grep kube-controller-manager
   ```
   ![kube-controller-manager3](../../images/kube-controller-manager3.PNG)
   
-K8s Referenece Docs:
+K8s Reference Docs:
 - https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/
 - https://kubernetes.io/docs/concepts/overview/components/
    
